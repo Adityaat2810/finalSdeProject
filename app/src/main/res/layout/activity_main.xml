@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:background="@color/wheat"
+
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/aboutMeButton"
+        android:layout_width="157dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/kongo_pink"
+        android:text="About me"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="290dp"
+        android:layout_height="134dp"
+        android:background="@color/tumble_weed"
+        android:textAlignment="center"
+
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:text="college expectation vs\n reality "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:backgroundTint="@color/kongo_pink"
+        android:id="@+id/button"
+
+        android:layout_width="194dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="30dp"
+        android:text="EXPECTATION" />
+
+    <Button
+        android:id="@+id/button2"
+        android:backgroundTint="@color/kongo_pink"
+
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="REALITY" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_marginLeft="59dp"
+        android:foregroundGravity="center_horizontal"
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ghostr" />
+
+
+</LinearLayout>

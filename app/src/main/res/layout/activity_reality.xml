@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wheat"
+    tools:context=".Reality">
+
+    <TextView
+        android:id="@+id/naya"
+        android:layout_width="171dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/tumble_weed"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Reality"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="286dp"
+        android:layout_height="317dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/newg"
+        android:padding="20dp"
+        android:text="* Daily assignment\n\n* Study in hostel room\n\n* Only boys in
+college\n\n* 75% attendence\n\n* All day coding"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="303dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naya"
+        app:srcCompat="@drawable/antimrel" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
